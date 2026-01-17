@@ -27,27 +27,26 @@ Try it out [here](https://www.instructa.ai/ai-prompts) or use these prompts dire
 
 To dynamically include prompts in AI-assisted coding tools like Cursor, GitHub Copilot, Zed, Windsurf, and Cline, you can utilize their respective configuration features. This approach ensures that your AI assistant adheres to project-specific coding standards, best practices, and automation workflows.
 
-
 Need a Guide? Read the blog post: [How to use Cursor Rules](https://www.instructa.ai/en/blog/how-to-use-cursor-rules-in-version-0-45) | [X Post](https://x.com/kregenrek/status/1887574770474229802)
 
 **How to Use AI Prompts in Different Tools**
 
-| AI Tool           | How to Include Prompts                                                                                                                                                                                                                 |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Cursor**        | Add prompts as project rules inside the `.cursor/rules/` directory (e.g., `.cursor/rules/cursorrules.mdc`). Cursor will automatically detect and apply them. For detailed guidance, refer to the [official Cursor rule guide](https://docs.cursor.com/context/rules-for-ai#project-rules-recommended). |
-| **GitHub Copilot**| Create a `.github/copilot-instructions.md` file in your repository's root directory and add natural language instructions in Markdown format. These instructions will guide Copilot's behavior across your project. More information is available in the [GitHub Copilot documentation](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot). |
-| **Zed**           | Store prompts in the `.zed/` directory within your project. You can configure project-specific settings by creating a `.zed/settings.json` file, allowing Zed to apply these configurations accordingly. Consult the [Zed documentation](https://zed.dev/docs/configuring-zed) for further details. |
-| **Windsurf**      | Add a .windsurfrules file into the project root. [Windsurf Getting Started Guide](https://docs.codeium.com/windsurf/getting-started). |
-| **Cline**         | 1. Click Cline extension settings 2. Find "Custom Instructions" field 3. Add your instructions  [Cline GitHub repository](https://cline.bot/faq). |
+| AI Tool            | How to Include Prompts                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cursor**         | Add prompts as project rules inside the `.cursor/rules/` directory (e.g., `.cursor/rules/cursorrules.mdc`). Cursor will automatically detect and apply them. For detailed guidance, refer to the [official Cursor rule guide](https://docs.cursor.com/context/rules-for-ai#project-rules-recommended).                                                                                      |
+| **GitHub Copilot** | Create a `.github/copilot-instructions.md` file in your repository's root directory and add natural language instructions in Markdown format. These instructions will guide Copilot's behavior across your project. More information is available in the [GitHub Copilot documentation](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot). |
+| **Zed**            | Store prompts in the `.zed/` directory within your project. You can configure project-specific settings by creating a `.zed/settings.json` file, allowing Zed to apply these configurations accordingly. Consult the [Zed documentation](https://zed.dev/docs/configuring-zed) for further details.                                                                                         |
+| **Windsurf**       | Add a .windsurfrules file into the project root. [Windsurf Getting Started Guide](https://docs.codeium.com/windsurf/getting-started).                                                                                                                                                                                                                                                       |
+| **Cline**          | 1. Click Cline extension settings 2. Find "Custom Instructions" field 3. Add your instructions  [Cline GitHub repository](https://cline.bot/faq).                                                                                                                                                                                                                                           |
 
 By configuring these settings, you can ensure that your AI tools operate in alignment with your project's specific requirements and standards. 
-
 
 ## 🤝 Contributing Prompts
 
 We welcome all contributions! Whether you're adding new prompts, improving existing ones, or fixing typos - every bit helps. 
 
 **Quick Start**:
+
 1. Create a folder under `prompts/<your-prompt-name>`
 2. Add metadata in `aiprompt.json` (see [example](./prompt-template/aiprompt.json))
 3. Include `.mdc` files with YAML front-matter for rules
@@ -55,9 +54,7 @@ We welcome all contributions! Whether you're adding new prompts, improving exist
 
 For full details, please see our [Contribution Guidelines](./CONTRIBUTING.md). 
 
-
 ## Community & Support
-
 
 - **Discussions**: Share ideas, get help, or suggest improvements on our [GitHub Discussions](https://github.com/instructa/ai-prompts/discussions).  
 - **Issues**: Report bugs or request new prompt categories through [GitHub Issues](https://github.com/instructa/ai-prompts/issues).  
@@ -66,7 +63,6 @@ For full details, please see our [Contribution Guidelines](./CONTRIBUTING.md).
 
 - X/Twitter: [@kregenrek](https://x.com/kregenrek)
 - Bluesky: [@kevinkern.dev](https://bsky.app/profile/kevinkern.dev)
-
 
 ## License
 
